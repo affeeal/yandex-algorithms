@@ -1,10 +1,10 @@
-.PHONY: clean generate build 01 02 03 04 05 06 07 08 09 10
+.PHONY: clean generate build 01 02 03 04 05 06 07 08 09 10 11
 
 clean:
 	rm -rf build
 
 generate:
-	cmake -S . -B build/
+	cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -S . -B build/
 
 silent-build:
 	cmake --build build/
@@ -43,3 +43,6 @@ build:
 
 10:
 	./build/10/10
+
+11:
+	./build/11/11

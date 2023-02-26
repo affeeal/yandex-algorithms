@@ -1,4 +1,4 @@
-.PHONY: clean generate build 01 02 03 04 05 06 07 08 09 10 11 12
+.PHONY: clean generate build
 
 clean:
 	rm -rf build
@@ -12,6 +12,8 @@ silent-build:
 build:
 	@make -s silent-build 
 
+.PHONY: 01 02 03 04 05 06 07 08 09 10 11 12
+	
 01:
 	ln -sf 01/input.txt ./input.txt
 	./build/01/01

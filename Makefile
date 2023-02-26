@@ -1,4 +1,4 @@
-.PHONY: clean generate build 01 02 03 04 05 06 07 08 09
+.PHONY: clean generate build 01 02 03 04 05 06 07 08 09 10
 
 clean:
 	rm -rf build
@@ -40,3 +40,6 @@ build:
 
 09:
 	./build/09/09
+
+10:
+	./build/10/10

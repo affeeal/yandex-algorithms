@@ -12,7 +12,7 @@ silent-build:
 build:
 	@make -s silent-build 
 
-.PHONY: 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16
+.PHONY: 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17
 	
 01:
 	ln -sf 01/input.txt ./input.txt
@@ -63,3 +63,6 @@ build:
 
 16:
 	./build/16/16
+
+17:
+	./build/17/17

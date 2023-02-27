@@ -1,7 +1,7 @@
 .PHONY: clean generate build
 
 clean:
-	rm -rf build
+	rm -rf build/ .cache/
 
 generate:
 	cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -S . -B build/
@@ -12,7 +12,7 @@ silent-build:
 build:
 	@make -s silent-build 
 
-.PHONY: 01 02 03 04 05 06 07 08 09 10 11 12 13
+.PHONY: 01 02 03 04 05 06 07 08 09 10 11 12 13 14
 	
 01:
 	ln -sf 01/input.txt ./input.txt
@@ -54,3 +54,6 @@ build:
 
 13:
 	./build/13/13
+
+14:
+	./build/14/14

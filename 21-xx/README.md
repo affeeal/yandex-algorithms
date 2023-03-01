@@ -1,1 +1,1 @@
-Being written in Go, here are uploaded problems from 21.
+Here are the problems written in Go, starting from the 21st.

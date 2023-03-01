@@ -1,3 +1,1 @@
-# algorithms-training
-
-Here are uploaded my solutions to Yandex algrotihms training 3.0 problems (B division).
+Being written in C++, here are uploaded problems from 01 to 21.

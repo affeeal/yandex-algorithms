@@ -1,4 +1,15 @@
-.PHONY: 21
-
+.PHONY: clean build 21 22
+	
+clean:
+	rm -rf build/
+	
+build:
+	mkdir -p build/
+	go build -o build/21 -v 21/main.go
+	go build -o build/22 -v 22/main.go
+	
 21:
-	go run 21/main.go
+	./build/21
+	
+22:
+	./build/22

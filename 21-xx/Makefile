@@ -1,4 +1,4 @@
-.PHONY: clean build 21 22 23 24
+.PHONY: clean build 21 22 23 24 25
 	
 clean:
 	rm -rf build/
@@ -9,6 +9,7 @@ build:
 	go build -o build/22 -v 22/main.go
 	go build -o build/23 -v 23/main.go
 	go build -o build/24 -v 24/main.go
+	go build -o build/25 -v 25/main.go
 	
 21:
 	./build/21
@@ -21,3 +22,6 @@ build:
 	
 24:
 	./build/24
+	
+25:
+	./build/25

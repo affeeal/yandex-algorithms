@@ -1,6 +1,6 @@
 .PHONY: clean build \
 	21 22 23 24 25 26 27 28 29 30 \
-	31 32 33
+	31 32 33 34
 	
 clean:
 	rm -rf build/
@@ -20,6 +20,7 @@ build:
 	go build -o build/31 -v 31/main.go
 	go build -o build/32 -v 32/main.go
 	go build -o build/33 -v 33/main.go
+	go build -o build/34 -v 34/main.go
 	
 21:
 	./build/21
@@ -59,3 +60,6 @@ build:
 	
 33:
 	./build/33
+	
+34:
+	./build/34

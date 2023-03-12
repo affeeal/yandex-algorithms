@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 20)
 project("Yandex algorithms training problems")
 
 add_subdirectory(37)
+add_subdirectory(38)

@@ -1,5 +1,5 @@
 .PHONY: clean generate build \
-	      37 38
+	      37 38 39
 
 clean:
 	rm -rf build/
@@ -18,3 +18,6 @@ build:
 	
 38:
 	./build/38/38
+	
+39:
+	./build/39/39

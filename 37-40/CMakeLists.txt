@@ -6,3 +6,4 @@ project("Yandex algorithms training problems")
 
 add_subdirectory(37)
 add_subdirectory(38)
+add_subdirectory(39)
